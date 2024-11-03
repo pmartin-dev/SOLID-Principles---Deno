@@ -1,4 +1,5 @@
-// Avant refactoring : la classe UserService a plusieurs responsabilités
+// Dans cet exemple, le principe de Single Responsability est violé car la classe Discount
+// a plusieurs responsabilités : calculer le rabais et déterminer le type de client.
 
 class User {
   constructor(public name: string, public email: string) {}

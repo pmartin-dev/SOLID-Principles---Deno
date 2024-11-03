@@ -3,8 +3,6 @@
 // Cela viole le principe de substitution de Liskov (LSP), car Square ne peut
 // pas être substitué de manière fiable à Rectangle sans altérer le comportement attendu.
 
-// Avant refactoring : Violation du principe de substitution de Liskov
-
 class Rectangle {
   constructor(public width: number, public height: number) {}
 

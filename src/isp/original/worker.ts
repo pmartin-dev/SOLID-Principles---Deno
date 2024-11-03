@@ -1,5 +1,5 @@
-// Avant refactoring : Violation du principe de ségrégation des interfaces (ISP)
-
+// Dans cet exemple, le principe d'interface ségrégée (ISP) est violé car la classe Worker
+// a des méthodes qui ne sont pas nécessaires pour tous les types de travailleurs.
 interface Worker {
   work(): void;
   eat(): void;

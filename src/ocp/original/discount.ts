@@ -1,4 +1,6 @@
-// Avant refactoring : Violation du principe Open/Closed
+// Dans cet exemple, nous avons une classe Discount qui calcule le rabais en fonction du type de client.
+// Le principe Open/Close n'est pas respecté car si nous voulons ajouter un nouveau type de client,
+// nous devons modifier la classe Discount.
 
 class Discount {
   calculate(price: number, type: string): number {

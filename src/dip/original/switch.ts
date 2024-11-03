@@ -2,8 +2,6 @@
 // Si on veut changer le type de lumière ou ajouter un autre type de dispositif,
 //  il faut modifier Switch, ce qui viole le principe d'inversion de dépendance (DIP).
 
-// Avant refactoring : Violation du principe d'inversion de dépendance (DIP)
-
 class LightBulb {
   turnOn(): void {
     console.log("L'ampoule est allumée.");
